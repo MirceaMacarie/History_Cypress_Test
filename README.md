@@ -30,11 +30,12 @@ This automation project was created to learn a new automation framework, Cypress
    
 ## :pushpin: Setup and installation :hammer_and_wrench:	
 1. The first time I created a remote repository on GitHub, then a local repository on my computer.
-2. In the project's local folder, I installed the WebdriverIO automatic testing framework from the Command Terminal, by executing the command: "npm init wdio .".
-3. Before the final installation of the drivers required for automated testing, I had to configure WebdriverIO by choosing certain options in the form in Terminal: selecting the base URL, using Google Chrome with chromedriver, setting the specific location where the files are located of the JavaScript test code ("./test/specs/**/*.js"), changing the command to run the test in the configuration file to "npm test".
-4. After we have finished installing the necessary files, I open a JS code file in the "test/specs" folder and add the unitary organized test suite with proper names for all the tests in it, following the documentation of the WebdriverIO framework.
-5. The automated test suite is executed by running the "npm test" command in the Command Terminal.
+2. In the project's local folder, I installed the **Cypress** automatic testing framework from the Command Prompt, by executing the command: "npm i cypress".
+3. After the final installation of Cypress, I had to open it by command line "npx cypress open" in Command Prompt and configure the framework for this project: selecting the type of testing for this project (End-to-End Testing), selecting the Google Chrome browser to run the website, create and setting the specific folder of the JavaScript test code (in this case: **"cypress\e2e\History_Tests"**).
+4. After we have finished configuring Cypress for this project, I open a JS code file in the **"cypress\e2e\History_Tests"** folder and add the unitary organized test suite with proper names for all the tests in it, following the documentation of Cypress framework.
+5. The automated test suite is executed by running in the Cypress interface, with a generic report in the left and the visual execution of the tests in the right part.
 
+:arrow_right_hook: Here on GitHub, the JS file with Cypress tests is located in the folder: **cypress\e2e\History_Tests**.
 
 
 
@@ -59,16 +60,13 @@ This project was thought as a way to:
 
 
 
-## :pushpin: Demo videos of the Automation test :clapper:
-Below is the video recording of the automation tests execution written for testing of Faculty of History BBU website.
+## :pushpin: Demo video of the Automation test :clapper:
+Below is the **video recording** of the automation tests execution, written for testing of Faculty of History BBU website.
 
 
 
 
 https://user-images.githubusercontent.com/115346533/219752630-178f0125-7527-4097-9805-4e172a84e3cf.mp4
-
-
-
 
 
 
