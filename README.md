@@ -41,7 +41,7 @@ This automation project was created to learn a new automation framework, Cypress
 
 
 ## :pushpin: Web support :link:
-As support, I used **the website https://academicinfo.ubbcluj.ro/Info/** for these automation test.
+As support, I used **the website https://hiphi.ubbcluj.ro/** for these automation test.
 
 
 
@@ -49,12 +49,10 @@ As support, I used **the website https://academicinfo.ubbcluj.ro/Info/** for the
 
 
 ## :pushpin: Testing objectives :microscope:
-This project was thought as a way to:
-+ check if **certain functions of the site can be automated**, 
-+ if **it respects a Positive Flow for a normal user / student**, 
-+ **to check certain static details (buttons, titles, text, etc.)**.
-
-:bangbang: **N.B.  From the flow of tests thought and written by me, the only functionality that could not be automated is the reCAPTCHA element. This is the only button accessed manually during the execution of the automated test.**
+This project was thought as a way to: 
++ if **it respects a Positive Flow for a student who wants to search/ verify specific things on website**, 
++ **to check certain static details (buttons, titles, text, etc.)**,
++ check if **certain functions of the site can be automated** in a testing process.
 
 
 
@@ -62,21 +60,15 @@ This project was thought as a way to:
 
 
 ## :pushpin: Demo videos of the Automation test :clapper:
-There are **2 versions** of the test execution presented below in 2 short videos. 
-
-1. The first version verifies that all the tests are working properly, with no coding errors. :point_down:
-
-
-https://user-images.githubusercontent.com/115346533/208291491-e323eb3d-b3d6-4227-be22-544e0bdac654.mp4
+Below is the video recording of the automation tests execution written for testing of Faculty of History BBU website.
 
 
 
 
+https://user-images.githubusercontent.com/115346533/219752630-178f0125-7527-4097-9805-4e172a84e3cf.mp4
 
-2. The second version contains a test that verifies the existence of Copyright for the current year (2022). It is observed in the video that the test fails for this reason, the Copyright of the web platform not being updated, which is a bug. :point_down:
 
 
-https://user-images.githubusercontent.com/115346533/208291507-aa66ab45-7997-4844-86f6-7ef5909b6879.mp4
 
 
 
