@@ -32,7 +32,7 @@ describe ('Verify different aspects on Hiphi.ro', () => {
         cy.get('.page-title').should('have.text', 'Studenţi');
 
         cy.get('.subpages > :nth-child(1) > ul > :nth-child(2) > a').click();
-        cy.get('.page-text > h2').should('have.text', 'Orarul semestrului I, 2022/2023');
+        cy.get('.page-text > h2').should('have.text', 'Orarul semestrului II, 2022/2023');
         cy.scrollTo(0, 1700);
 
 
